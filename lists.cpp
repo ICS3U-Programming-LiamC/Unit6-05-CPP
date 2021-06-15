@@ -11,11 +11,11 @@
 float numCurrentAsFloat;
 
 // calculates the average
-int Average(std::list<int> list) {
-    int total = 0;
-    int average;
+float Average(std::list<int> list) {
+    float total = 0;
+    float average;
 
-    for (int each : list) {
+    for (float each : list) {
         std::cout << each << ", ";
         total = total + each;
     }
@@ -48,7 +48,7 @@ int main() {
     std::list<int> numbers;
     std::string numCurrentStr;
     int numCurrent;
-    int average;
+    float average;
 
     // gets the number for the first time
     std::cout << "What is the number: ";
